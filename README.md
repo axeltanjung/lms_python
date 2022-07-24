@@ -569,12 +569,30 @@ while not finished: # fungsi untuk membuat program looping terus menerus
         
         
     elif choice == 9: # Exit
-        is_finished = input('Apakah anda ingin keluar? (Y/N) ')
+        is_finished = input('Apakah anda ingin keluar? (Y/N) ').upper()
         
         if is_finished == 'Y':
             finished == True
             break  # stop looping, program berhenti
+	else:
+            pass
             
     else:
         print("Masukan angka sesuai dengan menu!") # defensive programming terhadap angka diluar yang 1-9
 ```
+
+**3. Cara Running Program / Penggunaan Program**
+- Pada terminal, akses directory sesuai dengan lokasi file ``main.py``
+
+- Pastikan python sudah terinstall di terminal, jalankan syntax ```python main.py```
+
+- Masukkan angka 1 - 8 sesuai dengan interface dari program. Masukkan Inputan yang diminta oleh program untuk mendapatkan hasil yang sesuai
+
+- Masukkan angka 9 dan pilih Y untuk Exit program
+
+**4. Saran Perbaikkan**
+
+Saya menyadari butuh banyak perbaikan untuk aplikasi ini kedepannya, dikarekan keterbatasan waktu pengerjaan dan keterbatasan dari saya, adapun yang dapat di improve diantaranya:
+1. Defensive Programming untuk setiap percabangan dan error yang mungkin terjadi untuk type data yang tidak sesuai perlu diperbaiki
+2. Interface header kolom menggunakan pandas dataframe untuk interface yang lebih baik
+3. Dikenakan program ini menggunakan konsep Functional Programming, dapat dicoba untuk membuat aplikasi berdasarkan Object Oriented Programming untuk memecah masing-masing fungsi ke dalam objek
