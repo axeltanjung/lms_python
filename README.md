@@ -590,7 +590,53 @@ while not finished: # fungsi untuk membuat program looping terus menerus
 
 - Masukkan angka 9 dan pilih Y untuk Exit program
 
-**4. Saran Perbaikkan**
+**3. Hasil Case Test**
+- Melakukan input user bernama Fandi, tanggal lahir 1995-06-03, pekerjaan PNS, dan alamat di Rawamangun
+
+![Picture1](https://user-images.githubusercontent.com/87402782/180636923-61453445-5fa0-45b3-878f-b31cfdcb3332.png)
+
+- Pengecekan ke Database Library, Fandi sudah masuk kedalam anggota perpustakaan
+
+![Picture2](https://user-images.githubusercontent.com/87402782/180636940-20bdfa04-770d-41a4-9048-121bbdc45cca.png)
+
+- Mendaftarkan buku baru dengan ID 1021, berjudul Kaizen, kategori Motivasi dengan Stock 4 buah
+
+![Picture3](https://user-images.githubusercontent.com/87402782/180636973-f2cf2670-9018-417e-91a6-63c92ebb87eb.png)
+
+
+- Pengecekan daftar buku, Kaizen berhasil ditambahkan 
+
+![Picture4](https://user-images.githubusercontent.com/87402782/180636998-4ef9c27b-0173-49b7-b4d6-9c8f043fa82f.png)
+
+- Fandi meminjam buku Belajar Python
+
+![Picture5](https://user-images.githubusercontent.com/87402782/180637023-924a8c14-6033-4d32-8512-50cb28c83c40.png)
+
+- Transaksi terhadap peminjaman buku oleh Fandi terhadap Belajar Python sudah masuk ke Daftar Peminjaman Buku
+
+![Picture6](https://user-images.githubusercontent.com/87402782/180637046-bf9a5c68-cf78-41d6-892f-ffa64e6a296d.png)
+
+- Stock buku Belajar Python berkurang dari 3 menjadi 2
+
+![Picture7](https://user-images.githubusercontent.com/87402782/180637070-ed30f914-5de2-466b-a196-54b37571cada.png)
+
+- Fandi mengembalikan buku Belajar Python
+
+![Picture8](https://user-images.githubusercontent.com/87402782/180637095-06020199-e309-4dea-9480-e56af73cbb0e.png)
+
+- Daftar peminjam buku atas nama Fandi dengan buku Belajar Python terhapus
+
+![Picture9](https://user-images.githubusercontent.com/87402782/180637119-7e8e9ab4-2f11-4b36-ba53-fd8137130763.png)
+
+- Stock buku Belajar Python kembali menjadi 3
+
+![Picture10](https://user-images.githubusercontent.com/87402782/180637128-8a6576cd-2cce-4cd6-828b-7f3c1c5e404a.png)
+
+- Mencari buku dengan keyword "Belajar" dan Exit Program
+
+![Picture11](https://user-images.githubusercontent.com/87402782/180637145-311cf3b4-54e2-48bb-a734-370d127c0c30.png)
+
+**4. Saran Perbaikan**
 
 Saya menyadari butuh banyak perbaikan untuk aplikasi ini kedepannya, dikarekan keterbatasan waktu pengerjaan dan keterbatasan dari saya, adapun yang dapat di improve diantaranya:
 1. Defensive Programming untuk setiap percabangan dan error yang mungkin terjadi untuk type data yang tidak sesuai perlu diperbaiki
