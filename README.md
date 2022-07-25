@@ -1,5 +1,8 @@
 # tugas4_python
 
+### Nama : Axel Ivanda Tanjung
+### ID	 : axel-jUpc
+
 Repository ini berisikan Project Library Management System (LMS) dengan Python untuk pemenuhan Tugas 4 Python Pacmann
 
 **1. Tujuan Pengerjaan Project**
